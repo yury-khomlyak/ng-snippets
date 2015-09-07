@@ -23,7 +23,7 @@
       get: get,
       getObject: getObject
     };
-  }
+  };
 
   var module = angular.module('starter');
   module.factory('localstorage', localstorage);
